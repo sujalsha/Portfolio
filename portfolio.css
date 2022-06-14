@@ -1,33 +1,52 @@
-.card{
-    box-shadow: 0 4px 8px 0 rgba(0,0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-    font-family: arial;
-}
 .title{
-    color: gray;
-    font-size: 18px;
+    color: white;
+    font-size: 20px;
+}
+.card{
+    border-style: groove;
+    box-shadow: 0 4px 8px 0 rgba(0,0, 0, 0.2);
+    max-width: 550px;
+    margin: left;
+    text-align: center;
+    font-family: cursive;
+    font-style: cursive;
+}
 
+p{
+    color: white;
+    font-size: 25px;
+}
+h1{
+    color: whitesmoke;
 }
 button{
-    border: none;
+    border: round;
     outline: 0;
     display: inline-block;
     padding: 8px;
     color: white;
-    background-color: #000;
+    background-color: gray;
     text-align: center;
     cursor: pointer;
     width: 100%;
     font-size: 18px;
 }
-a{
-    text-decoration: none;
-    font-size: 22px;
-    color: black;
 
-}
 button:hover, a:hover{
     opacity: 0.7;
 }
+.social-icon{
+    color: white;
+    transition: color 0.2s;
+    size: 30px;
+}
+.social-icon:hover{
+    color: #aaaaaaaa;
+}
+.about{
+    position:absolute;
+    top: 10px;
+    left:600px;
+    text-align: left;
+}
+
